@@ -1,4 +1,10 @@
-:root {}
+:root {
+    --inter-font: 'Inter', sans-serif;
+    --primary-color: #0D6EFD;
+    --secondary-color: #6C757D;
+    --detail-color: #343A40;
+    --line-color: #7749F8;
+}
 
 * {
     box-sizing: border-box;
