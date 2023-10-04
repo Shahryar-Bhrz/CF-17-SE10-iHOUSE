@@ -234,22 +234,27 @@ body {
     color: var(--primary-color);
 }
 
+.link {
+    text-decoration: none;
+    color: white;
+}
+
 .rent-details {
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
     background-color: var(--detail-color);
-    color: white;
     padding: 10px 16px;
     border-radius: 4px;
     margin-right: 16px;
     text-align: center;
     margin-bottom: 57px;
 
+
+
 }
 
 .rent-more {
-    color: white;
     background-color: var(--primary-color);
     font-size: 20px;
     font-weight: 600;
