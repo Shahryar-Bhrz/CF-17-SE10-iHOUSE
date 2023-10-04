@@ -45,3 +45,21 @@
     padding: 0 24px;
     border-left: 2px solid var(--line-color);
 }
+
+.number {
+    font-family: var(--inter-font);
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: center;
+
+}
+
+.plus {
+    font-family: var(--inter-font);
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: center;
+    color: var(--primary-color)
+}
