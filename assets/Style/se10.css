@@ -136,7 +136,8 @@ body {
     font-weight: 400;
     line-height: 15px;
     color: var(--secondary-color);
-    padding-right: 2px
+    padding-right: 2px;
+    margin-bottom: 17.8px;
 }
 
 .sale-price {
@@ -153,6 +154,8 @@ body {
     line-height: 19px;
     background-color: var(--detail-color);
     color: white;
-    direction: rtl;
-
+    padding: 10px 16px;
+    border-radius: 4px;
+    margin: 10px 0 18px 80px;
+    text-align: center;
 }
