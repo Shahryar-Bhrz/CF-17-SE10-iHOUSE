@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: var(--inter-font);
+}
+
 .container {
     width: 100%;
     margin: auto;
@@ -62,4 +66,15 @@
     line-height: 34px;
     text-align: center;
     color: var(--primary-color)
+}
+
+.frame-txt {
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
 }
