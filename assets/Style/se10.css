@@ -159,3 +159,16 @@ body {
     margin: 10px 0 18px 80px;
     text-align: center;
 }
+
+.sale-more {
+    color: white;
+    background-color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    margin: 24px 80px 64px 97px;
+    padding: 10px 16px;
+    border-radius: 4px;
+
+}
