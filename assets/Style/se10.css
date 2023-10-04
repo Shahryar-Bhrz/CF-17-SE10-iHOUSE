@@ -172,3 +172,38 @@ body {
     border-radius: 4px;
 
 }
+
+.rent {
+    padding: 0 12px
+}
+
+.rent-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+
+.rent-tag {
+    border-radius: 2px;
+    background-color: var(--secondary-color);
+    font-size: 9px;
+    font-weight: 600;
+    line-height: 11px;
+    color: white;
+    margin: 24px 255px 10px 23px;
+    width: 60px;
+    padding: 4px 7px
+}
+
+.rent-txt {}
+
+.rent-house-name {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    height: 34px;
+    overflow: hidden;
+}
