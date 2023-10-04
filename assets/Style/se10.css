@@ -47,6 +47,12 @@ body {
     border-left: 2px solid var(--line-color);
 }
 
+.frames {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 .frame-number {
     text-align: center;
 }
