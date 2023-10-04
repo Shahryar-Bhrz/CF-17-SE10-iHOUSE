@@ -118,10 +118,7 @@ body {
     letter-spacing: 0em;
     direction: rtl;
     color: white;
-    margin-top: 0;
-    margin-bottom: 54px;
-    margin-right: 18px;
-    margin-left: 94px;
+    margin: 0 18px 54px 94px;
     width: 60px;
     padding: 4px 7px
 }
@@ -130,6 +127,7 @@ body {
     font-size: 24px;
     font-weight: 800;
     line-height: 29px;
+    margin-bottom: 19.5px;
 
 }
 
@@ -138,7 +136,7 @@ body {
     font-weight: 400;
     line-height: 15px;
     color: var(--secondary-color);
-
+    padding-right: 2px
 }
 
 .sale-price {
