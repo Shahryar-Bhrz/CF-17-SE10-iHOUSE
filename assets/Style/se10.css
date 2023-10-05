@@ -22,6 +22,12 @@ body {
     /* background-color: green; */
 }
 
+@media (min-width:768px) {
+    .container {
+        max-width: 834px
+    }
+}
+
 .row {
     display: flex;
 }
@@ -32,6 +38,7 @@ body {
     font-size: 23px;
     padding: 16px 142px 20px 139px;
     color: white;
+    text-align: center;
 }
 
 .description-title {
