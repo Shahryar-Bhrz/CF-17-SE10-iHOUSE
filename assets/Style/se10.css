@@ -158,14 +158,18 @@ body {
         font-size: 21px;
         font-weight: 400;
         line-height: 36px;
-
-
     }
 }
 
 .description-img {
     width: 100%;
     margin-bottom: 64px;
+}
+
+@media (min-width:768px) {
+    .description-img {
+        margin-bottom: 96px;
+    }
 }
 
 .sale {
@@ -178,6 +182,14 @@ body {
     line-height: 29px;
     text-align: center;
     margin-bottom: 24px;
+}
+
+@media (min-width:768px) {
+    .sale-title {
+        font-size: 32px;
+        line-height: 39px;
+        margin-bottom: 35px;
+    }
 }
 
 .sale-info {
