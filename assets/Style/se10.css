@@ -103,31 +103,31 @@ body {
     margin-bottom: 24px;
 }
 
-.sale-txt {
-    padding: 27px 15px 0 14px;
-}
-
 .sale-info {
     display: flex;
     border-radius: 4px;
     border: 1px solid #DEE2E6
 }
 
+.sale-txt {
+    padding: 27px 15px 0 14px;
+    flex-grow: 1;
+}
+
+.sale-img {
+    flex-grow: 1;
+}
+
 .sale-tag {
-    /* top: 0.5px
-    left: 1px */
-    padding: 4px 7px;
     border-radius: 2px;
     background-color: var(--secondary-color);
     font-size: 9px;
     font-weight: 600;
     line-height: 11px;
-    letter-spacing: 0em;
-    direction: rtl;
     color: white;
-    margin: 0 18px 54px 94px;
-    width: 60px;
-    padding: 4px 7px
+    margin: 0 17.5px 54px 94px;
+    padding: 4px 7px;
+    text-align: center;
 }
 
 .sale-house-name {
@@ -196,6 +196,11 @@ body {
 .rent-info {
     border-radius: 4px;
     border: 1px solid #DEE2E6
+}
+
+.rent-img {
+    width: 100%;
+    /* object-fit: contain; */
 }
 
 .rent-tag {
