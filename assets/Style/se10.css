@@ -192,6 +192,23 @@ body {
     }
 }
 
+
+@media (min-width:768px) {
+    .sale-1 {
+        display: none;
+    }
+}
+
+.sale-2 {
+    display: none
+}
+
+@media (min-width:768px) {
+    .sale-2 {
+        display: block;
+    }
+}
+
 .sale-info {
     display: flex;
     border-radius: 4px;
@@ -201,6 +218,12 @@ body {
 .sale-txt {
     padding: 27px 15px 0 14px;
     flex-grow: 1;
+}
+
+@media (min-width:768px) {
+    .sale-txt {
+        padding: 27px 32px 22px 28px
+    }
 }
 
 .sale-img {
@@ -219,12 +242,24 @@ body {
     text-align: center;
 }
 
+@media (min-width:768px) {
+    .sale-tag {
+        margin: auto
+    }
+}
+
 .sale-house-name {
     font-size: 24px;
     font-weight: 800;
     line-height: 29px;
     margin-bottom: 19.5px;
 
+}
+
+@media (min-width:768px) {
+    .sale-house-name {
+        margin: auto
+    }
 }
 
 .sale-info-txt {
@@ -236,12 +271,24 @@ body {
     margin-bottom: 17.8px;
 }
 
+@media (min-width:768px) {
+    .sale-info-txt {
+        margin: auto
+    }
+}
+
 .sale-price {
     font-size: 21px;
     font-weight: 400;
     line-height: 36px;
     color: var(--primary-color);
 
+}
+
+@media (min-width:768px) {
+    .sale-price {
+        margin: auto
+    }
 }
 
 .sale-details {
@@ -256,6 +303,12 @@ body {
     text-align: center;
 }
 
+@media (min-width:768px) {
+    .sale-details {
+        margin: auto
+    }
+}
+
 .sale-more {
     color: white;
     background-color: var(--primary-color);
@@ -267,6 +320,12 @@ body {
     padding: 10px 16px;
     border-radius: 4px;
 
+}
+
+@media (min-width:768px) {
+    .sale-more {
+        display: none
+    }
 }
 
 .rent {
