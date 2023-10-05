@@ -100,12 +100,33 @@ body {
     justify-content: space-evenly;
 }
 
+@media (min-width:768px) {
+    .frames {
+        justify-content: space-between;
+        margin-bottom: 14px;
+        padding-left: 30px;
+        padding-right: 30px
+    }
+}
+
 .frame-3 {
     display: none;
 }
 
+@media (min-width:768px) {
+    .frame-3 {
+        display: block;
+    }
+}
+
 .frame-number {
     text-align: center;
+}
+
+@media (min-width:768px) {
+    .frame-number {
+        margin-bottom: 8px;
+    }
 }
 
 .number {
@@ -114,6 +135,7 @@ body {
     line-height: 34px;
 
 }
+
 
 .plus {
     font-size: 28px;
@@ -129,6 +151,16 @@ body {
     text-align: center;
     color: var(--secondary-color);
 
+}
+
+@media (min-width:768px) {
+    .frame-txt {
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 36px;
+
+
+    }
 }
 
 .description-img {
