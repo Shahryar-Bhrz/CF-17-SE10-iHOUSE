@@ -176,6 +176,12 @@ body {
     padding: 0 12px;
 }
 
+@media (min-width:768px) {
+    .sale {
+        /* padding: 0; */
+    }
+}
+
 .sale-title {
     font-size: 24px;
     font-weight: 700;
@@ -212,7 +218,15 @@ body {
 .sale-info {
     display: flex;
     border-radius: 4px;
-    border: 1px solid #DEE2E6
+    border: 1px solid #DEE2E6;
+    margin-bottom: 24px;
+}
+
+@media (min-width:768px) {
+    .sale-info {
+        /* margin-left: 68px;
+        margin-right: 68px; */
+    }
 }
 
 .sale-txt {
@@ -222,13 +236,20 @@ body {
 
 @media (min-width:768px) {
     .sale-txt {
-        padding: 27px 32px 22px 28px;
-
+        flex-shrink: 1;
     }
 }
 
 .sale-img {
     flex-grow: 1;
+}
+
+@media (min-width:768px) {
+    .sale-img {
+        flex-shrink: 1;
+        padding: 0;
+        margin: 0;
+    }
 }
 
 .sale-tag {
@@ -245,7 +266,7 @@ body {
 
 @media (min-width:768px) {
     .sale-tag {
-        margin: 27px 345px 10px 49px;
+        margin: 0px 385px 10px 49px;
     }
 }
 
@@ -259,7 +280,7 @@ body {
 
 @media (min-width:768px) {
     .sale-house-name {
-        margin: 0px 34px 11px 49px;
+        margin: 0px 84px 11px 49px;
     }
 }
 
@@ -274,7 +295,7 @@ body {
 
 @media (min-width:768px) {
     .sale-info-txt {
-        margin: 0 34px 23px 49px;
+        margin: 0 49px 23px 49px;
         padding-right: 50px
     }
 }
